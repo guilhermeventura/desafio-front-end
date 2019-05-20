@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="mdc-card pokemon__card"
+>
+  <a
+    href="/pokemon-details/undefined"
+    onClick={[Function]}
+  >
+    <div
+      className="mdc-card__primary-action"
+      disabled={false}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchStart={[Function]}
+      style={Object {}}
+    >
+      <h5
+        className="mdc-typography mdc-typography--headline5 jovem"
+      >
+        pokemontest
+      </h5>
+      <div
+        className="mdc-card__media mdc-card__media--square"
+        style={
+          Object {
+            "backgroundImage": "url(testimg.jpg)",
+          }
+        }
+      />
+    </div>
+  </a>
+  <div
+    className="mdc-card__actions"
+  >
+    <div
+      className="mdc-card__action-buttons"
+    >
+      <button
+        className="mdc-button mdc-card__action mdc-card__action--button"
+        disabled={false}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchStart={[Function]}
+        style={Object {}}
+      >
+        <span
+          className="mdc-button__label"
+        >
+          Catch!
+        </span>
+      </button>
+    </div>
+    <div
+      className="mdc-card__action-icons"
+    >
+      <i
+        className="mdc-card__action mdc-card__action--icon"
+        onClick={[Function]}
+      >
+        Remove
+      </i>
+    </div>
+  </div>
+</div>
+`;

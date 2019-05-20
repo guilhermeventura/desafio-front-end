@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PokemonSearch /> renders correctly 1`] = `
+<div
+  className="columns is-multiline is-centered"
+  style={Object {}}
+>
+  <div
+    className="column is-half"
+    style={Object {}}
+  >
+    <h3
+      className="mdc-typography mdc-typography--headline3"
+    >
+      Search a pokemon below
+    </h3>
+    <br />
+    <div
+      className="mdc-text-field mdc-text-field--outlined mdc-text-field--with-trailing-icon"
+      onClick={[Function]}
+      onKeyDown={[Function]}
+    >
+      <input
+        className="mdc-text-field__input"
+        disabled={false}
+        id=""
+        onBlur={[Function]}
+        onChange={[Function]}
+        onFocus={[Function]}
+        onMouseDown={[Function]}
+        onTouchStart={[Function]}
+        value=""
+      />
+      <div
+        className="mdc-notched-outline mdc-notched-outline--no-label"
+      >
+        <div
+          className="mdc-notched-outline__leading"
+        />
+        <div
+          className="mdc-notched-outline__notch"
+          style={
+            Object {
+              "width": undefined,
+            }
+          }
+        >
+          <label
+            className="mdc-floating-label"
+            htmlFor=""
+            onAnimationEnd={[Function]}
+          >
+            Name or number...
+          </label>
+        </div>
+        <div
+          className="mdc-notched-outline__trailing"
+        />
+      </div>
+      <i
+        className="material-icons mdc-text-field__icon"
+        onClick={[Function]}
+        onKeyDown={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        search
+      </i>
+    </div>
+  </div>
+</div>
+`;

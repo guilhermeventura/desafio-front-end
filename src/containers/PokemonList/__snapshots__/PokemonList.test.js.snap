@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<PokemonList /> renders correctly 1`] = `
+Array [
+  <div
+    className="columns is-multiline is-centered"
+    style={Object {}}
+  >
+    <div
+      className="column"
+      style={Object {}}
+    >
+      <h3
+        className="mdc-typography mdc-typography--headline3"
+      >
+        Your Pokedex is empty
+      </h3>
+    </div>
+  </div>,
+  <div
+    className="columns is-multiline is-centered"
+    style={Object {}}
+  />,
+]
+`;
