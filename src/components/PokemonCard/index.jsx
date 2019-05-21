@@ -18,14 +18,22 @@ export const PokemonCard = ({
   addToPokedex,
   pokedexId
 }) => {
+  console.log(pokedexId);
   return (
     <Card className="pokemon__card">
-      <Link to={`/pokemon-details/${pokedexId}`}>
+      {pokedexId >= 0 ? (
+        <Link to={`/pokemon-details/${pokedexId}`}>
+          <CardPrimaryContent>
+            <Headline5>{data.name}</Headline5>
+            <CardMedia square imageUrl={data.sprites.front_default} />
+          </CardPrimaryContent>
+        </Link>
+      ) : (
         <CardPrimaryContent>
           <Headline5>{data.name}</Headline5>
           <CardMedia square imageUrl={data.sprites.front_default} />
         </CardPrimaryContent>
-      </Link>
+      )}
       <CardActions>
         {addToPokedex && (
           <CardActionButtons>
