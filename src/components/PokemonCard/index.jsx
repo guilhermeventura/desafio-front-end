@@ -18,7 +18,6 @@ export const PokemonCard = ({
   addToPokedex,
   pokedexId
 }) => {
-  console.log(pokedexId);
   return (
     <Card className="pokemon__card">
       {pokedexId >= 0 ? (
